@@ -1,0 +1,51 @@
+JSON = Javascript Object Notation
+
+{} object
+[] array
+
+{
+	key1: value1
+	key2: value2
+	...
+}
+
+[
+	obj1,
+	obj2,
+	obj2
+]
+
+value == obj
+{ }, "string", 12, false, []
+=========================================
+api/students/all
+
+{
+	"students": [
+		{
+			"name": "John Doe",
+			"age": 22,
+			"school": {
+				"name": "Holy Child"
+			},
+			"subjects": ["English", "Science"]
+		},
+		{...},
+		{...}
+	]
+}
+
+
+=========================================
+
+MyClass obj = new MyClass();
+new MyClass(); 
+new MyClass() { @Override function() };
+//this is same as 
+
+MyAnonymousClass extends MyClass {
+	@override
+	function()
+}
+
+new MyAnonymousClass();
