@@ -1,0 +1,19 @@
+
+
+Image syncFunc ( String url )
+asyncFunc ( String url, Callback ) {
+	//on separate thread
+	Image mImg = download(url);
+	Callback.success(mImg);
+}
+
+
+Image myImg = syncFunc ("http://beautifulimage.com")
+
+Image myImg = null;
+asyncFunc("http://beautifulimage.com", new CallBack {
+	@Override
+	void success(mImg) {
+		myImg = mImg;
+	}
+})
