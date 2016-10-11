@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786572142245",
+    "firebase_url": "https://pandora-sample-app-deb19.firebaseio.com",
+    "project_id": "pandora-sample-app-deb19",
+    "storage_bucket": "pandora-sample-app-deb19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786572142245:android:366a9790dfd5f612",
+        "android_client_info": {
+          "package_name": "com.codingblocks.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786572142245-jbnhdcgro9kk9ukr25dn9tcdns52g0gj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingblocks.firebase",
+            "certificate_hash": "F3D76BDFF58C555D465E2F47C97BEEB2C1F77416"
+          }
+        },
+        {
+          "client_id": "786572142245-8ohh5nm8nchj2eskgc5unhsk3bcv4mhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvUhzOWlD1wn_X5qF8Qk0GhAORmKcpt4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786572142245-8ohh5nm8nchj2eskgc5unhsk3bcv4mhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
